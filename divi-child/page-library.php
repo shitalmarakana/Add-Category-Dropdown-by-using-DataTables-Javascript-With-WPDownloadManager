@@ -63,7 +63,7 @@ if (is_user_logged_in()) {
 
 	//$error_msg = '';
 	$_SESSION['error_msg']='';
-	if($currentusername == "estwing1923" || in_array( 'administrator', (array) $current_user->roles )){
+	if($currentusername == "Test" || in_array( 'administrator', (array) $current_user->roles )){
 		
 		
 		the_content();
@@ -78,7 +78,7 @@ if (is_user_logged_in()) {
 			
 		 //echo apply_filters( 'the_content','[wpdm_login_form redirect="'.get_site_url().'/library/"]');
 	}
-	/*else if($currentusername != "estwing1923"){
+	/*else if($currentusername != "Test"){
 		//$error_msg = "Please enter Correct User Name and Password!";
 		 wp_destroy_current_session();
 			header('Location: '.get_site_url().'/library/');
