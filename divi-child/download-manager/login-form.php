@@ -116,7 +116,7 @@ if(!$logo) $logo = get_site_icon_url();
 			var password = $(this).find("#password").val();
 			
 			
-		   	/*if (username == "estwing1923" && password == "usa1"){*/
+		   	/*if (username == "Test" && password == "usa1"){*/
 				
 			  	$('#loginform-submit').html(WPDM.html("i", "", "fa fa-spin fa-sync")+" <?php _e( "Logging In..." , WPDM_TEXT_DOMAIN ); ?>").attr('disabled', 'disabled');
             WPDM.blockUI('#loginform');
